@@ -1,4 +1,7 @@
 #!usr/bin/env python3
+"""
+This script fetches weather information for a specified location using the wttr.in service."""
+
 from fastapi import FastAPI
 import uvicorn
 import httpx
