@@ -22,6 +22,7 @@ async def get_weather(location: str):
         response = await client.get(url)
         if response.status_code == 200:
             return {"lookup": location, "weather": response.text}
+    return {"error": "Could not fetch weather information"}
 
 
 if __name__ == "__main__":
