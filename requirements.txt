@@ -7,3 +7,5 @@ ruff
 mypy
 pytest
 coverage
+pre-commit
+black

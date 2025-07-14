@@ -31,4 +31,3 @@ jobs:
       run: |
         coverage run -m pytest
         coverage report
- 
